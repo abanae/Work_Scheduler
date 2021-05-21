@@ -3,7 +3,7 @@
 $().ready(function(){ 
 
     //Displays current day & time
-    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a")); 
+    $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm: a")); 
 
     //assign saveBtn click listener for user input and time stamp??
     $(".saveBtn").on("click", function () {
