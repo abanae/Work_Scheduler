@@ -52,5 +52,5 @@ $().ready(function(){
         })
     }
 
-    // timeTrack(); 
+    timeTrack(); 
 })
