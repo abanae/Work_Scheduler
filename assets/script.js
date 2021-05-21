@@ -17,22 +17,22 @@ $().ready(function(){
     })
 
     // Save to Local Storage 
-    $("#hr9 .description").val(localStorage.getItem("hour9"));
-    $("#hr10 .description").val(localStorage.getItem("hour10"));
-    $("#hr11 .description").val(localStorage.getItem("hour11"));
-    $("#hr12 .description").val(localStorage.getItem("hour12"));
-    $("#hr13 .description").val(localStorage.getItem("hour13"));
-    $("#hr14 .description").val(localStorage.getItem("hour14"));
-    $("#hr15 .description").val(localStorage.getItem("hour15"));
-    $("#hr16 .description").val(localStorage.getItem("hour16"));
-    $("#hr17 .description").val(localStorage.getItem("hour17"));
+    $("#hr9 .description").val(localStorage.getItem("hr9"));
+    $("#hr10 .description").val(localStorage.getItem("hr10"));
+    $("#hr11 .description").val(localStorage.getItem("hr11"));
+    $("#hr12 .description").val(localStorage.getItem("hr12"));
+    $("#hr13 .description").val(localStorage.getItem("hr13"));
+    $("#hr14 .description").val(localStorage.getItem("hr14"));
+    $("#hr15 .description").val(localStorage.getItem("hr15"));
+    $("#hr16 .description").val(localStorage.getItem("hr16"));
+    $("#hr17 .description").val(localStorage.getItem("hr17"));
 
     // Function to get time
     function timeTrack() {
         let currentTime = moment().hour();
 
         $(".time-block").each(function () {
-            let blockHour = parseInt($(this).attr("id").split("hour")[1]);
+            let blockHour = parseInt($(this).attr("id").split("hr")[1]);
             console.log(blockHour, currentTime)
             
             if (blockHour < currentTime) {
