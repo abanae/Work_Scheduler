@@ -11,8 +11,8 @@
 
 
 ## FINAL RESULTS:
-<!-- ![Javascript Quiz Screenshot](./assets/images/javascriptQuiz.PNG)
+<!-- ![Javascript Quiz Screenshot](./assets/images/javascriptQuiz.PNG) -->
 
 
 ### LINK TO DEPLOYED URL :
-[Javascript Quiz](https://abanae.github.io/Javascript-Quiz/index.html) -->
+[Work Scheduler](https://abanae.github.io/Work_Scheduler/)
