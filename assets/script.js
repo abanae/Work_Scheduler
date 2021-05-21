@@ -1,8 +1,10 @@
 
+// JQuery readiness
+$().ready(function(){ 
 
-$(document).ready(function(){ 
     //Displays current day & time
     $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a")); 
+
     //assign saveBtn click listener for user input and time stamp??
     $(".saveBtn").on("click", function () {
         console.log(this);
@@ -12,4 +14,5 @@ $(document).ready(function(){
         //Save to Local Storage
         localStorage.setItem(time, text);
     })
+
 })
