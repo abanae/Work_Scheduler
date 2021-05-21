@@ -8,11 +8,11 @@ $().ready(function(){
     //assign saveBtn click listener for user input and time stamp??
     $(".saveBtn").on("click", function () {
         console.log(this);
-        var text = $(this).siblings(".description").val(); 
-        var time = $(this).parent().attr("id"); 
+        let value = $(this).siblings(".description").val(); 
+        let time = $(this).parent().attr("id"); 
 
         //Save to Local Storage
-        localStorage.setItem(time, text);
+        localStorage.setItem(time, value);
     })
 
     // $("#hr9 .description").val(localStorage.getItem("hr9"));
@@ -25,4 +25,31 @@ $().ready(function(){
     // $("#hr16 .description").val(localStorage.getItem("hr16"));
     // $("#hr17 .description").val(localStorage.getItem("hr17"));
 
+    // function timeTrack() {
+    //     let time = moment().hour();
+
+    //     $(".time-block").each(function () {
+    //         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
+    //         console.log(blockHour, time)
+            
+    //         if (blockHour < time) {
+    //             $(this).removeClass("future");
+    //             $(this).removeClass("present");
+    //             $(this).addClass("past");
+    //         }
+    //         else if (blockHour === time) {
+    //             $(this).removeClass("past");
+    //             $(this).removeClass("future");
+    //             $(this).addClass("present");
+    //         }
+    //         else {
+    //             $(this).removeClass("present");
+    //             $(this).removeClass("past");
+    //             $(this).addClass("future");
+
+    //         }
+    //     })
+    // }
+
+    // timeTrack(); 
 })
