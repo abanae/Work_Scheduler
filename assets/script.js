@@ -25,31 +25,32 @@ $().ready(function(){
     // $("#hr16 .description").val(localStorage.getItem("hr16"));
     // $("#hr17 .description").val(localStorage.getItem("hr17"));
 
-    // function timeTrack() {
-    //     let time = moment().hour();
+    // Function to get time
+    function timeTrack() {
+        let currentTime = moment().hour();
 
-    //     $(".time-block").each(function () {
-    //         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-    //         console.log(blockHour, time)
+        $(".time-block").each(function () {
+            let blockHour = parseInt($(this).attr("id").split("hour")[1]);
+            console.log(blockHour, currentTime)
             
-    //         if (blockHour < time) {
-    //             $(this).removeClass("future");
-    //             $(this).removeClass("present");
-    //             $(this).addClass("past");
-    //         }
-    //         else if (blockHour === time) {
-    //             $(this).removeClass("past");
-    //             $(this).removeClass("future");
-    //             $(this).addClass("present");
-    //         }
-    //         else {
-    //             $(this).removeClass("present");
-    //             $(this).removeClass("past");
-    //             $(this).addClass("future");
+            // if (blockHour < time) {
+            //     $(this).removeClass("future");
+            //     $(this).removeClass("present");
+            //     $(this).addClass("past");
+            // }
+            // else if (blockHour === time) {
+            //     $(this).removeClass("past");
+            //     $(this).removeClass("future");
+            //     $(this).addClass("present");
+            // }
+            // else {
+            //     $(this).removeClass("present");
+            //     $(this).removeClass("past");
+            //     $(this).addClass("future");
 
-    //         }
-    //     })
-    // }
+            // }
+        })
+    }
 
     // timeTrack(); 
 })
