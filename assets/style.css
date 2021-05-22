@@ -18,8 +18,7 @@ textarea {
 /* Bootstrap "Header" */
 .jumbotron {
   text-align: center;
-  /* background-color: transparent; */
-  /* background-image: url(rainbow.jpg); */
+  background-image: url(./images/pastels.jpg);
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
