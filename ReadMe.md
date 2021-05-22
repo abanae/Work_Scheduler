@@ -15,7 +15,7 @@ Website provides a simple day planner application that allows the user to save e
 
 
 ## FINAL RESULTS:
-![Work Scheduler Screenshot]()
+![Work Scheduler Screenshot](./assets/images/screenshot.PNG)
 
 
 ### LINK TO DEPLOYED URL :
