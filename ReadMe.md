@@ -10,6 +10,7 @@ Website provides a simple day planner application that allows the user to save e
 * Event Listener to "clicks".
 * Moment.js components.
 * Textarea to input "tasks".
+* Reset.css component.
 * Responsive layout that adapts to my viewport by using Media Queries.
 
 
