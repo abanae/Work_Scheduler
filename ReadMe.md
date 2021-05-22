@@ -5,15 +5,16 @@ Website provides a simple day planner application that allows the user to save e
 
 ## PROCESS:
 * CSS powered by Jquery Library. 
-* Bootstrap Components.
+* Bootstrap components.
 * Data Local Storage.
 * Event Listener to "clicks".
+* Moment.js components.
 * Textarea to input "tasks".
 * Responsive layout that adapts to my viewport by using Media Queries.
 
 
 ## FINAL RESULTS:
-<!-- ![Javascript Quiz Screenshot](./assets/images/javascriptQuiz.PNG) -->
+![Work Scheduler Screenshot]()
 
 
 ### LINK TO DEPLOYED URL :
