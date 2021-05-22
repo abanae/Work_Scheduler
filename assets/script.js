@@ -16,7 +16,7 @@ $().ready(function(){
 
     })
 
-    // Save to Local Storage 
+    // Grabbing the id off the html
     $("#hr9 .description").val(localStorage.getItem("hr9"));
     $("#hr10 .description").val(localStorage.getItem("hr10"));
     $("#hr11 .description").val(localStorage.getItem("hr11"));
@@ -27,10 +27,11 @@ $().ready(function(){
     $("#hr16 .description").val(localStorage.getItem("hr16"));
     $("#hr17 .description").val(localStorage.getItem("hr17"));
 
-    // Function to get time
+    // Function to get time/hour
     function timeTrack() {
         let currentTime = moment().hour();
 
+// Function to loop through time
         $(".time-block").each(function () {
             let blockHour = parseInt($(this).attr("id").split("hr")[1]);
             console.log(blockHour, currentTime)
